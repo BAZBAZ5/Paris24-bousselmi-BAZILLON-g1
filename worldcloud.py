@@ -10,7 +10,18 @@ Original file is located at
 # exercice 1
 # author : BAZILLON
 # state : ongoing
-
+Requirement already satisfied: WordCloud in /usr/local/lib/python3.10/dist-packages (1.9.3)
+Requirement already satisfied: numpy>=1.6.1 in /usr/local/lib/python3.10/dist-packages (from WordCloud) (1.25.2)
+Requirement already satisfied: pillow in /usr/local/lib/python3.10/dist-packages (from WordCloud) (9.4.0)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (from WordCloud) (3.7.1)
+Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (1.2.1)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (4.50.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (1.4.5)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (24.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib->WordCloud) (2.8.2)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib->WordCloud) (1.16.0)
 # exercice 2
 # author : LA
 # state : ongoing
